@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "663ac518-25d7-464c-bca1-792bd2af9375")
 	(paper "A4")
 	(lib_symbols
@@ -15,8 +15,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -25,6 +29,8 @@
 			)
 			(property "Value" "R"
 				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -33,47 +39,57 @@
 			)
 			(property "Footprint" ""
 				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Resistor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "R_0_1"
@@ -93,7 +109,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -111,7 +127,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -136,8 +152,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "LED"
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -146,6 +166,8 @@
 			)
 			(property "Value" "XL-2835UWC-02"
 				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -154,38 +176,46 @@
 			)
 			(property "Footprint" "easyeda2kicad:LED-SMD_L3.5-W2.8-RD_1.25T-2PWT"
 				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "LCSC Part" "C2843876"
 				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "XL-2835UWC-02_1_0_1"
@@ -331,8 +361,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "LED"
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -341,6 +375,8 @@
 			)
 			(property "Value" "XL-2835UWC-02"
 				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -349,38 +385,46 @@
 			)
 			(property "Footprint" "easyeda2kicad:LED-SMD_L3.5-W2.8-RD_1.25T-2PWT"
 				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "LCSC Part" "C2843876"
 				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "XL-2835UWC-02_2_0_1"
@@ -526,8 +570,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "LED"
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -536,6 +584,8 @@
 			)
 			(property "Value" "XL-2835UWC-02"
 				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -544,38 +594,46 @@
 			)
 			(property "Footprint" "easyeda2kicad:LED-SMD_L3.5-W2.8-RD_1.25T-2PWT"
 				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "LCSC Part" "C2843876"
 				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "XL-2835UWC-02_0_1"
@@ -741,14 +799,18 @@
 		(lib_id "Device:R")
 		(at 127 92.71 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "453b87f3-f428-42c0-8460-c0a50c138b62")
 		(property "Reference" "R1"
 			(at 129.54 91.4399 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -758,6 +820,8 @@
 		)
 		(property "Value" "1R"
 			(at 129.54 93.9799 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -767,29 +831,35 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 125.222 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 127 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor"
 			(at 127 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -800,68 +870,8 @@
 		)
 		(instances
 			(project "sunface"
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/0a126154-32b0-4343-b27e-7e5e8a2de74f"
-					(reference "R11")
-					(unit 1)
-				)
 				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/107d8509-ed25-4b81-a133-c6261c323981"
 					(reference "R1")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/330e6aa8-6340-4575-ace7-dc8c934c5f90"
-					(reference "R3")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/34159603-48d9-4829-b1b4-2af69d99cdd9"
-					(reference "R2")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/3b2f7939-a680-42c4-988e-0682e3586f44"
-					(reference "R5")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/660cff85-156a-46db-a2c1-d894a0afc2a1"
-					(reference "R9")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/718b4f3d-1756-4810-89cb-7f2c3f8de22e"
-					(reference "R16")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/847c04df-a726-49db-a8dc-e504c2b247be"
-					(reference "R15")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/85bf584f-d405-4fe6-a10e-ce62e5657179"
-					(reference "R4")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/8f23263c-687a-4dd2-94d6-0d548023d930"
-					(reference "R13")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/c75c1974-5aa3-448a-bef0-241c01216168"
-					(reference "R7")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/d38aa51b-d72f-4a74-967f-e60f6e84dc4a"
-					(reference "R8")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/e0996f90-3d6c-4807-9056-638179f6d0ea"
-					(reference "R6")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/e5e16308-b1e9-4b4f-a29c-6e6c34358a4d"
-					(reference "R14")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/e8b2100c-6d05-4f5c-be59-d9da65f7eb49"
-					(reference "R10")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/e990f4ae-76f2-4422-8694-81d5ff781dec"
-					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -871,14 +881,18 @@
 		(lib_id "easyeda2kicad:XL-2835UWC-02")
 		(at 127 101.6 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "980125a4-e32f-4c2e-b7ea-e1bc8d84a194")
 		(property "Reference" "LED1"
 			(at 129.54 101.0899 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -888,6 +902,8 @@
 		)
 		(property "Value" "XL-2835UWC-02"
 			(at 129.54 103.6299 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -897,38 +913,46 @@
 		)
 		(property "Footprint" "easyeda2kicad:LED-SMD_L3.5-W2.8-RD_1.25T-2PWT"
 			(at 134.62 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 127 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 127 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "LCSC Part" "C2843876"
 			(at 137.16 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -939,68 +963,8 @@
 		)
 		(instances
 			(project "sunface"
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/0a126154-32b0-4343-b27e-7e5e8a2de74f"
-					(reference "LED31")
-					(unit 1)
-				)
 				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/107d8509-ed25-4b81-a133-c6261c323981"
 					(reference "LED1")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/330e6aa8-6340-4575-ace7-dc8c934c5f90"
-					(reference "LED7")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/34159603-48d9-4829-b1b4-2af69d99cdd9"
-					(reference "LED4")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/3b2f7939-a680-42c4-988e-0682e3586f44"
-					(reference "LED13")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/660cff85-156a-46db-a2c1-d894a0afc2a1"
-					(reference "LED25")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/718b4f3d-1756-4810-89cb-7f2c3f8de22e"
-					(reference "LED46")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/847c04df-a726-49db-a8dc-e504c2b247be"
-					(reference "LED43")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/85bf584f-d405-4fe6-a10e-ce62e5657179"
-					(reference "LED10")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/8f23263c-687a-4dd2-94d6-0d548023d930"
-					(reference "LED37")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/c75c1974-5aa3-448a-bef0-241c01216168"
-					(reference "LED19")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/d38aa51b-d72f-4a74-967f-e60f6e84dc4a"
-					(reference "LED22")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/e0996f90-3d6c-4807-9056-638179f6d0ea"
-					(reference "LED16")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/e5e16308-b1e9-4b4f-a29c-6e6c34358a4d"
-					(reference "LED40")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/e8b2100c-6d05-4f5c-be59-d9da65f7eb49"
-					(reference "LED28")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/e990f4ae-76f2-4422-8694-81d5ff781dec"
-					(reference "LED34")
 					(unit 1)
 				)
 			)
@@ -1011,14 +975,18 @@
 		(lib_id "easyeda2kicad:XL-2835UWC-02")
 		(at 127 121.92 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8d7cdb6-cd88-4042-bfaa-989a0c7ebfae")
 		(property "Reference" "LED3"
 			(at 129.54 121.4099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1028,6 +996,8 @@
 		)
 		(property "Value" "XL-2835UWC-02"
 			(at 129.54 123.9499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1037,38 +1007,46 @@
 		)
 		(property "Footprint" "easyeda2kicad:LED-SMD_L3.5-W2.8-RD_1.25T-2PWT"
 			(at 134.62 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 127 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 127 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "LCSC Part" "C2843876"
 			(at 137.16 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -1079,68 +1057,8 @@
 		)
 		(instances
 			(project "sunface"
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/0a126154-32b0-4343-b27e-7e5e8a2de74f"
-					(reference "LED33")
-					(unit 1)
-				)
 				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/107d8509-ed25-4b81-a133-c6261c323981"
 					(reference "LED3")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/330e6aa8-6340-4575-ace7-dc8c934c5f90"
-					(reference "LED9")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/34159603-48d9-4829-b1b4-2af69d99cdd9"
-					(reference "LED6")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/3b2f7939-a680-42c4-988e-0682e3586f44"
-					(reference "LED15")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/660cff85-156a-46db-a2c1-d894a0afc2a1"
-					(reference "LED27")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/718b4f3d-1756-4810-89cb-7f2c3f8de22e"
-					(reference "LED48")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/847c04df-a726-49db-a8dc-e504c2b247be"
-					(reference "LED45")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/85bf584f-d405-4fe6-a10e-ce62e5657179"
-					(reference "LED12")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/8f23263c-687a-4dd2-94d6-0d548023d930"
-					(reference "LED39")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/c75c1974-5aa3-448a-bef0-241c01216168"
-					(reference "LED21")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/d38aa51b-d72f-4a74-967f-e60f6e84dc4a"
-					(reference "LED24")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/e0996f90-3d6c-4807-9056-638179f6d0ea"
-					(reference "LED18")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/e5e16308-b1e9-4b4f-a29c-6e6c34358a4d"
-					(reference "LED42")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/e8b2100c-6d05-4f5c-be59-d9da65f7eb49"
-					(reference "LED30")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/e990f4ae-76f2-4422-8694-81d5ff781dec"
-					(reference "LED36")
 					(unit 1)
 				)
 			)
@@ -1151,14 +1069,18 @@
 		(lib_id "easyeda2kicad:XL-2835UWC-02")
 		(at 127 111.76 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bab9bbd4-aaa9-40f9-9dc9-3e06b693ed26")
 		(property "Reference" "LED2"
 			(at 129.54 111.2499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1168,6 +1090,8 @@
 		)
 		(property "Value" "XL-2835UWC-02"
 			(at 129.54 113.7899 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1177,38 +1101,46 @@
 		)
 		(property "Footprint" "easyeda2kicad:LED-SMD_L3.5-W2.8-RD_1.25T-2PWT"
 			(at 134.62 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 127 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 127 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "LCSC Part" "C2843876"
 			(at 137.16 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -1219,68 +1151,8 @@
 		)
 		(instances
 			(project "sunface"
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/0a126154-32b0-4343-b27e-7e5e8a2de74f"
-					(reference "LED32")
-					(unit 1)
-				)
 				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/107d8509-ed25-4b81-a133-c6261c323981"
 					(reference "LED2")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/330e6aa8-6340-4575-ace7-dc8c934c5f90"
-					(reference "LED8")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/34159603-48d9-4829-b1b4-2af69d99cdd9"
-					(reference "LED5")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/3b2f7939-a680-42c4-988e-0682e3586f44"
-					(reference "LED14")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/660cff85-156a-46db-a2c1-d894a0afc2a1"
-					(reference "LED26")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/718b4f3d-1756-4810-89cb-7f2c3f8de22e"
-					(reference "LED47")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/847c04df-a726-49db-a8dc-e504c2b247be"
-					(reference "LED44")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/85bf584f-d405-4fe6-a10e-ce62e5657179"
-					(reference "LED11")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/8f23263c-687a-4dd2-94d6-0d548023d930"
-					(reference "LED38")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/c75c1974-5aa3-448a-bef0-241c01216168"
-					(reference "LED20")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/d38aa51b-d72f-4a74-967f-e60f6e84dc4a"
-					(reference "LED23")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/e0996f90-3d6c-4807-9056-638179f6d0ea"
-					(reference "LED17")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/e5e16308-b1e9-4b4f-a29c-6e6c34358a4d"
-					(reference "LED41")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/e8b2100c-6d05-4f5c-be59-d9da65f7eb49"
-					(reference "LED29")
-					(unit 1)
-				)
-				(path "/b5279a47-4e53-4efd-ad9f-4a5619d0841f/e990f4ae-76f2-4422-8694-81d5ff781dec"
-					(reference "LED35")
 					(unit 1)
 				)
 			)

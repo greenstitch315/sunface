@@ -224,17 +224,28 @@
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
+      "bom_rev": "",
       "dist": "",
       "distpn": "",
       "internal_id": "",
       "mfg": "",
-      "mpn": ""
+      "mpn": "",
+      "sch_revision": ""
     },
     "layer_pairs": [],
     "layer_presets": [],
     "viewports": []
   },
   "boards": [],
+  "component_class_settings": {
+    "assignments": [],
+    "meta": {
+      "version": 0
+    },
+    "sheet_component_classes": {
+      "enabled": false
+    }
+  },
   "cvpcb": {
     "equivalence_files": []
   },
@@ -424,11 +435,14 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
+      "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
+      "isolated_pin_label": "warning",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
@@ -451,6 +465,7 @@
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
       "single_global_label": "ignore",
+      "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
@@ -483,13 +498,14 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
+        "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       }
     ],
     "meta": {
-      "version": 4
+      "version": 5
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -511,6 +527,10 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "annotation": {
+      "method": 0,
+      "sort_order": 0
+    },
     "bom_export_filename": "${PROJECTNAME}_BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -600,6 +620,7 @@
       "sort_asc": false,
       "sort_field": "Value"
     },
+    "bus_aliases": {},
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -607,6 +628,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
+      "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -630,6 +652,7 @@
     "net_format_name": "",
     "page_layout_descr_file": "",
     "plot_directory": "",
+    "reuse_designators": true,
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -638,77 +661,32 @@
     "spice_save_all_dissipations": false,
     "spice_save_all_voltages": false,
     "subpart_first_id": 65,
-    "subpart_id_separator": 0
+    "subpart_id_separator": 0,
+    "top_level_sheets": [
+      {
+        "filename": "sunface.kicad_sch",
+        "name": "sunface",
+        "uuid": "b5279a47-4e53-4efd-ad9f-4a5619d0841f"
+      }
+    ],
+    "used_designators": "",
+    "variants": []
   },
   "sheets": [
     [
       "b5279a47-4e53-4efd-ad9f-4a5619d0841f",
-      "Root"
+      "sunface"
     ],
     [
       "107d8509-ed25-4b81-a133-c6261c323981",
       "led_string1"
-    ],
-    [
-      "34159603-48d9-4829-b1b4-2af69d99cdd9",
-      "led_string2"
-    ],
-    [
-      "330e6aa8-6340-4575-ace7-dc8c934c5f90",
-      "led_string3"
-    ],
-    [
-      "85bf584f-d405-4fe6-a10e-ce62e5657179",
-      "led_string4"
-    ],
-    [
-      "3b2f7939-a680-42c4-988e-0682e3586f44",
-      "led_string5"
-    ],
-    [
-      "e0996f90-3d6c-4807-9056-638179f6d0ea",
-      "led_string6"
-    ],
-    [
-      "c75c1974-5aa3-448a-bef0-241c01216168",
-      "led_string7"
-    ],
-    [
-      "d38aa51b-d72f-4a74-967f-e60f6e84dc4a",
-      "led_string8"
-    ],
-    [
-      "660cff85-156a-46db-a2c1-d894a0afc2a1",
-      "led_string9"
-    ],
-    [
-      "e8b2100c-6d05-4f5c-be59-d9da65f7eb49",
-      "led_string10"
-    ],
-    [
-      "0a126154-32b0-4343-b27e-7e5e8a2de74f",
-      "led_string11"
-    ],
-    [
-      "e990f4ae-76f2-4422-8694-81d5ff781dec",
-      "led_string12"
-    ],
-    [
-      "8f23263c-687a-4dd2-94d6-0d548023d930",
-      "led_string13"
-    ],
-    [
-      "e5e16308-b1e9-4b4f-a29c-6e6c34358a4d",
-      "led_string14"
-    ],
-    [
-      "847c04df-a726-49db-a8dc-e504c2b247be",
-      "led_string15"
-    ],
-    [
-      "718b4f3d-1756-4810-89cb-7f2c3f8de22e",
-      "led_string16"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {},
+  "tuning_profiles": {
+    "meta": {
+      "version": 0
+    },
+    "tuning_profiles_impedance_geometric": []
+  }
 }
